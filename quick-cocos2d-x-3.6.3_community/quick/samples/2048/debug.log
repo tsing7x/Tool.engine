@@ -1,0 +1,91 @@
+Quick-Cocos2dx-Community C++ support ready.
+
+------------------------------------------------
+
+LOAD LUA FILE: F:/Deploy/adt_bundle/cocos2dx/quick-cocos2d-x-3.6.3_community/quick/samples/2048/src/main.lua
+
+------------------------------------------------
+
+Get data from file(res/framework_precompiled.zip) failed, error code is 2
+
+lua_loadChunksFromZIP() - not found or invalid zip file: res/framework_precompiled.zip
+
+[LUA-print] ===========================================================
+
+[LUA-print]               LOAD QUICK FRAMEWORK
+
+[LUA-print] ===========================================================
+
+[LUA-print] [INFO] 
+
+[LUA-print] [INFO] # DEBUG                        = 0
+
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # device.platform              = windows
+
+[LUA-print] [INFO] # device.model                 = unknown
+
+[LUA-print] [INFO] # device.language              = cn
+
+[LUA-print] [INFO] # device.writablePath          = F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\samples\2048\
+
+[LUA-print] [INFO] # device.directorySeparator    = \
+
+[LUA-print] [INFO] # device.pathSeparator         = ;
+
+[LUA-print] [INFO] #
+
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 640.00
+
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 960.00
+
+[LUA-print] [INFO] # display.widthInPixels        = 640.00
+
+[LUA-print] [INFO] # display.heightInPixels       = 960.00
+
+[LUA-print] [INFO] # display.contentScaleFactor   = 1.00
+
+[LUA-print] [INFO] # display.width                = 640.00
+
+[LUA-print] [INFO] # display.height               = 960.00
+
+[LUA-print] [INFO] # display.cx                   = 320.00
+
+[LUA-print] [INFO] # display.cy                   = 480.00
+
+[LUA-print] [INFO] # display.left                 = 0.00
+
+[LUA-print] [INFO] # display.right                = 640.00
+
+[LUA-print] [INFO] # display.top                  = 960.00
+
+[LUA-print] [INFO] # display.bottom               = 0.00
+
+[LUA-print] [INFO] # display.c_left               = -320.00
+
+[LUA-print] [INFO] # display.c_right              = 320.00
+
+[LUA-print] [INFO] # display.c_top                = 480.00
+
+[LUA-print] [INFO] # display.c_bottom             = -480.00
+
+[LUA-print] [INFO] #
+
+[LUA-print] ----------------------------------------
+
+[LUA-print] LUA ERROR: [string "F:/Deploy/adt_bundle/cocos2dx/quick-cocos2d-x-3.6.3_community/quick/samples/2048/src/update.lua"]:81: attempt to call global 'CCLuaLog' (a nil value)
+
+
+[LUA-print] 
+stack traceback:
+	[string "F:/Deploy/adt_bundle/cocos2dx/quick-cocos2d-x-3.6.3_community/quick/samples/2048/src/update.lua"]:81: in function 'checkDirOK'
+	[string "F:/Deploy/adt_bundle/cocos2dx/quick-cocos2d-x-3.6.3_community/quick/samples/2048/src/update.lua"]:199: in function 'onEnter'
+	[string ".\framework/cocos2dx/NodeEx.lua"]:143: in function 'listener_'
+	[string ".\framework/cocos2dx/NodeEx.lua"]:428: in function 'EventDispatcher'
+	[string ".\framework/cocos2dx/NodeEx.lua"]:271: in function <[string ".\framework/cocos2dx/NodeEx.lua"]:270>
+
+[LUA-print] ----------------------------------------
+

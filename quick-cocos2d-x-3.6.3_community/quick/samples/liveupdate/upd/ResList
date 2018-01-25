@@ -1,0 +1,11 @@
+local list = {
+	ver = 0.02,
+	limit = 0.01,
+	stage = {
+		{name="update.zip1", path="", code="13bd035daeb460518cc055670883e9ff", act="load"},
+		{name="bg.png", path="res", code="13bd035daeb460518cc055670883e9ff", act="replace"},
+	},
+	remove={
+	},
+}
+return list

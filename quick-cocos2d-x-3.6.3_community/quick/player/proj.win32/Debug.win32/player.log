@@ -1,0 +1,410 @@
+﻿Build started 2017/01/04 18:09:49.
+     1>Project "F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\player.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         if not exist "F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\" mkdir "F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\"
+         :VCEnd
+       ClCompile:
+         F:\Deploy\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\lua\luajit\include" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\..\Classes" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\..\..\lib\quick-src" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\..\..\lib\quick-src\extra" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\win32-specific\zlib\include" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\scripting\lua-bindings\auto" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\scripting\lua-bindings\manual" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\audio\include" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\lua\lua" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\lua\tolua" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\extensions" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\\" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\curl\include\win32" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\glfw3\include\win32" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\editor-support" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\platform" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\platform\desktop" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\glfw3\include\win32" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D CC_USE_JSON=1 /D CC_USE_SQLITE=1 /D CC_USE_CURL=1 /D CC_LUA_ENGINE_ENABLED=1 /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D USE_WIN32_CONSOLE=1 /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D GLFW_EXPOSE_NATIVE_WIN32 /D GLFW_EXPOSE_NATIVE_WGL /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /FIalgorithm /analyze- /errorReport:prompt "..\..\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_nanovg_auto.cpp" "..\..\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_nanovg_manual.cpp" "..\..\lib\quick-src\extra\nanovg\nanonode\NVGDrawNode.cpp" "..\..\lib\quick-src\extra\nanovg\nanonode\NVGNode.cpp" "..\..\lib\quick-src\extra\nanovg\nanovg\nanovg.c" ..\Classes\AppDelegate.cpp ..\Classes\PlayerLuaCore.cpp ..\Classes\PlayerLuaCoreManual.cpp ..\Classes\PlayerMenuServiceProtocol.cpp ..\Classes\PlayerProtocol.cpp ..\Classes\PlayerServiceProtocol.cpp ..\Classes\PlayerSettings.cpp ..\Classes\PlayerTaskServiceProtocol.cpp ..\Classes\PlayerUtils.cpp "..\..\lib\quick-src\extra\apptools\HelperFunc.cpp" "..\..\lib\quick-src\extra\crypto\CCCrypto.cpp" "..\..\lib\quick-src\extra\filters\filters\CCBlurFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCBrightnessFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCContrastFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCCustomFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCDropShadowFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCExposureFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCGammaFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCGrayFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCHazeFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCHueFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCMaskFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCRGBFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCSaturationFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCSepiaFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCSharpenFilter.cpp" "..\..\lib\quick-src\extra\filters\filters\CCTestFilter.cpp" "..\..\lib\quick-src\extra\filters\nodes\CCFilteredSprite.cpp" "..\..\lib\quick-src\extra\filters\shaders\ccFilterShaders.cpp" "..\..\lib\quick-src\extra\filters\shaders\FilterShaders.cpp" "..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp" "..\..\lib\quick-src\extra\luabinding\HelperFunc_luabinding.cpp" "..\..\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_filter_auto.cpp" "..\..\lib\quick-src\lua_extensions\lua_extensions_more.c" "..\..\lib\quick-src\extra\network\CCHTTPRequest.cpp" "..\..\lib\quick-src\extra\network\CCNetwork.cpp" "..\..\lib\quick-src\extra\platform\win32\CCCryptoWin32.cpp" "..\..\lib\quick-src\extra\platform\win32\CCNative.cpp" "..\..\lib\quick-src\extra\platform\win32\CCNativeWin32.cpp" "..\..\lib\quick-src\extra\platform\win32\CCNetworkWin32.cpp" "..\..\lib\quick-src\ProjectConfig\ProjectConfig.cpp" ..\Classes\VisibleRect.cpp PlayerEditBoxServiceWin.cpp PlayerFileDialogServiceWin.cpp PlayerMenuServiceWin.cpp PlayerMessageBoxServiceWin.cpp PlayerTaskServiceWin.cpp PlayerWin.cpp stdafx.cpp UncaughtExceptionHandler_win32.cpp
+         lua_cocos2dx_extension_nanovg_auto.cpp
+         lua_cocos2dx_extension_nanovg_manual.cpp
+         NVGDrawNode.cpp
+         NVGNode.cpp
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanonode\nvgdrawnode.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_nanovg_auto.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanonode\nvgdrawnode.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\lib\quick-src\extra\nanovg\nanonode\NVGDrawNode.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanonode\nvgdrawnode.cpp(62): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanonode\nvgdrawnode.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanonode\nvgdrawnode.cpp(84): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanonode\nvgdrawnode.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanonode\nvgdrawnode.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (..\..\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_nanovg_manual.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_nanovg_manual.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_nanovg_manual.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_nanovg_manual.cpp(229): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_nanovg_manual.cpp(309): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanonode\nvgdrawnode.cpp(168): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanonode\nvgdrawnode.cpp(196): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanonode\nvgdrawnode.cpp(343): warning C4018: '<' : signed/unsigned mismatch
+         nanovg.c
+         AppDelegate.cpp
+         PlayerLuaCore.cpp
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\nanovg\nanovg\stb_image.h(191): warning C4005: '_CRT_SECURE_NO_WARNINGS' : macro redefinition (..\..\lib\quick-src\extra\nanovg\nanovg\nanovg.c)
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+         PlayerLuaCoreManual.cpp
+         PlayerMenuServiceProtocol.cpp
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(18): warning C4068: unknown pragma (..\Classes\AppDelegate.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(19): warning C4068: unknown pragma (..\Classes\AppDelegate.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(27): warning C4068: unknown pragma (..\Classes\AppDelegate.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(28): warning C4068: unknown pragma (..\Classes\AppDelegate.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(43): warning C4068: unknown pragma (..\Classes\AppDelegate.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(44): warning C4068: unknown pragma (..\Classes\AppDelegate.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(49): warning C4068: unknown pragma (..\Classes\AppDelegate.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(50): warning C4068: unknown pragma (..\Classes\AppDelegate.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(58): warning C4068: unknown pragma (..\Classes\AppDelegate.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(59): warning C4068: unknown pragma (..\Classes\AppDelegate.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\classes\playerluacore.cpp(1211): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\classes\playerluacore.cpp(1276): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\classes\playerluacore.cpp(1341): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\classes\playerluacore.cpp(1797): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\classes\playerluacore.cpp(2817): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\classes\playerluacore.cpp(2850): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         PlayerProtocol.cpp
+         PlayerServiceProtocol.cpp
+         PlayerSettings.cpp
+         PlayerTaskServiceProtocol.cpp
+         PlayerUtils.cpp
+         HelperFunc.cpp
+         CCCrypto.cpp
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\apptools\helperfunc.cpp(15): warning C4996: 'cocos2d::FileUtils::getFileData': was declared deprecated
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\platform\ccfileutils.h(103) : see declaration of 'cocos2d::FileUtils::getFileData'
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\platform\ccfileutils.h(103) : see declaration of 'cocos2d::FileUtils::getFileData'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(81): warning C4068: unknown pragma (..\..\lib\quick-src\extra\crypto\CCCrypto.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(82): warning C4068: unknown pragma (..\..\lib\quick-src\extra\crypto\CCCrypto.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(135): warning C4068: unknown pragma (..\..\lib\quick-src\extra\crypto\CCCrypto.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(136): warning C4068: unknown pragma (..\..\lib\quick-src\extra\crypto\CCCrypto.cpp)
+         CCBlurFilter.cpp
+         CCBrightnessFilter.cpp
+         CCContrastFilter.cpp
+         CCCustomFilter.cpp
+         CCDropShadowFilter.cpp
+         CCExposureFilter.cpp
+         CCFilter.cpp
+         CCGammaFilter.cpp
+         CCGrayFilter.cpp
+         CCHazeFilter.cpp
+         CCHueFilter.cpp
+         CCMaskFilter.cpp
+         CCRGBFilter.cpp
+         CCSaturationFilter.cpp
+         CCSepiaFilter.cpp
+         CCSharpenFilter.cpp
+         CCTestFilter.cpp
+         CCFilteredSprite.cpp
+         ccFilterShaders.cpp
+         FilterShaders.cpp
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(5): warning C4273: 'cocos2d::extension::ccFilterShader_gray_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(31) : see previous definition of 'ccFilterShader_gray_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(8): warning C4273: 'cocos2d::extension::ccFilterShader_hblur_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(33) : see previous definition of 'ccFilterShader_hblur_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(10): warning C4273: 'cocos2d::extension::ccFilterShader_vblur_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(34) : see previous definition of 'ccFilterShader_vblur_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(12): warning C4273: 'cocos2d::extension::ccFilterShader_blur_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(35) : see previous definition of 'ccFilterShader_blur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(15): warning C4273: 'cocos2d::extension::ccFilterShader_sharpen_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(37) : see previous definition of 'ccFilterShader_sharpen_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(17): warning C4273: 'cocos2d::extension::ccFilterShader_sharpen_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(38) : see previous definition of 'ccFilterShader_sharpen_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(20): warning C4273: 'cocos2d::extension::ccFilterShader_rgb_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(40) : see previous definition of 'ccFilterShader_rgb_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(23): warning C4273: 'cocos2d::extension::ccFilterShader_brightness_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(42) : see previous definition of 'ccFilterShader_brightness_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(26): warning C4273: 'cocos2d::extension::ccFilterShader_exposure_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(44) : see previous definition of 'ccFilterShader_exposure_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(29): warning C4273: 'cocos2d::extension::ccFilterShader_contrast_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(46) : see previous definition of 'ccFilterShader_contrast_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(32): warning C4273: 'cocos2d::extension::ccFilterShader_saturation_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(48) : see previous definition of 'ccFilterShader_saturation_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(35): warning C4273: 'cocos2d::extension::ccFilterShader_gamma_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(50) : see previous definition of 'ccFilterShader_gamma_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(38): warning C4273: 'cocos2d::extension::ccFilterShader_hue_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(52) : see previous definition of 'ccFilterShader_hue_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(41): warning C4273: 'cocos2d::extension::ccFilterShader_haze_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(54) : see previous definition of 'ccFilterShader_haze_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(44): warning C4273: 'cocos2d::extension::ccFilterShader_zoom_blur_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(56) : see previous definition of 'ccFilterShader_zoom_blur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(47): warning C4273: 'cocos2d::extension::ccFilterShader_motion_blur_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(58) : see previous definition of 'ccFilterShader_motion_blur_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(49): warning C4273: 'cocos2d::extension::ccFilterShader_motion_blur_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(59) : see previous definition of 'ccFilterShader_motion_blur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(52): warning C4273: 'cocos2d::extension::ccFilterShader_drop_shadow_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(61) : see previous definition of 'ccFilterShader_drop_shadow_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(54): warning C4273: 'cocos2d::extension::ccFilterShader_drop_shadow_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(62) : see previous definition of 'ccFilterShader_drop_shadow_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(57): warning C4273: 'cocos2d::extension::ccFilterShader_sepia_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(64) : see previous definition of 'ccFilterShader_sepia_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(60): warning C4273: 'cocos2d::extension::ccFilterShader_test_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(69) : see previous definition of 'ccFilterShader_test_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(62): warning C4273: 'cocos2d::extension::ccFilterShader_test_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(70) : see previous definition of 'ccFilterShader_test_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(67): warning C4273: 'cocos2d::extension::ccFilterShader_gaussian_hblur_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(66) : see previous definition of 'ccFilterShader_gaussian_hblur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(69): warning C4273: 'cocos2d::extension::ccFilterShader_gaussian_vblur_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(67) : see previous definition of 'ccFilterShader_gaussian_vblur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(72): warning C4273: 'cocos2d::extension::ccFilterShader_colorramp_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(74) : see previous definition of 'ccFilterShader_colorramp_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(75): warning C4273: 'cocos2d::extension::ccFilterShader_emboss_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(76) : see previous definition of 'ccFilterShader_emboss_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(78): warning C4273: 'cocos2d::extension::ccFilterShader_embossmov_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(78) : see previous definition of 'ccFilterShader_embossmov_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.cpp(81): warning C4273: 'cocos2d::extension::ccFilterShader_grass_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\ccfiltershaders.h(80) : see previous definition of 'ccFilterShader_grass_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\example_bloom.fsh(1): warning C4273: 'cocos2d::extra::FilterShader_bloom_frag' : inconsistent dll linkage (..\..\lib\quick-src\extra\filters\shaders\FilterShaders.cpp)
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(8) : see previous definition of 'FilterShader_bloom_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\example_blur.fsh(1): warning C4273: 'cocos2d::extra::FilterShader_blur_frag' : inconsistent dll linkage (..\..\lib\quick-src\extra\filters\shaders\FilterShaders.cpp)
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(9) : see previous definition of 'FilterShader_blur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\example_celshading.fsh(1): warning C4273: 'cocos2d::extra::FilterShader_celshading_frag' : inconsistent dll linkage (..\..\lib\quick-src\extra\filters\shaders\FilterShaders.cpp)
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(10) : see previous definition of 'FilterShader_celshading_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\example_edgedetection.fsh(2): warning C4273: 'cocos2d::extra::FilterShader_edgedetection_frag' : inconsistent dll linkage (..\..\lib\quick-src\extra\filters\shaders\FilterShaders.cpp)
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(11) : see previous definition of 'FilterShader_edgedetection_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\example_greyscale.fsh(2): warning C4273: 'cocos2d::extra::FilterShader_greyscale_frag' : inconsistent dll linkage (..\..\lib\quick-src\extra\filters\shaders\FilterShaders.cpp)
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(12) : see previous definition of 'FilterShader_greyscale_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\example_lensflare.fsh(2): warning C4273: 'cocos2d::extra::FilterShader_lensflare_frag' : inconsistent dll linkage (..\..\lib\quick-src\extra\filters\shaders\FilterShaders.cpp)
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(13) : see previous definition of 'FilterShader_lensflare_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\example_noisy.fsh(3): warning C4273: 'cocos2d::extra::FilterShader_noisy_frag' : inconsistent dll linkage (..\..\lib\quick-src\extra\filters\shaders\FilterShaders.cpp)
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(14) : see previous definition of 'FilterShader_noisy_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\example_outline.fsh(6): warning C4273: 'cocos2d::extra::FilterShader_outline_frag' : inconsistent dll linkage (..\..\lib\quick-src\extra\filters\shaders\FilterShaders.cpp)
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(15) : see previous definition of 'FilterShader_outline_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\example_sepia.fsh(2): warning C4273: 'cocos2d::extra::FilterShader_sepia_frag' : inconsistent dll linkage (..\..\lib\quick-src\extra\filters\shaders\FilterShaders.cpp)
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(16) : see previous definition of 'FilterShader_sepia_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(35): warning C4273: 'cocos2d::extra::ccFilterShader_gray_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(19) : see previous definition of 'ccFilterShader_gray_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(38): warning C4273: 'cocos2d::extra::ccFilterShader_hblur_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(21) : see previous definition of 'ccFilterShader_hblur_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(40): warning C4273: 'cocos2d::extra::ccFilterShader_vblur_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(22) : see previous definition of 'ccFilterShader_vblur_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(42): warning C4273: 'cocos2d::extra::ccFilterShader_blur_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(23) : see previous definition of 'ccFilterShader_blur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(45): warning C4273: 'cocos2d::extra::ccFilterShader_sharpen_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(25) : see previous definition of 'ccFilterShader_sharpen_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(47): warning C4273: 'cocos2d::extra::ccFilterShader_sharpen_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(26) : see previous definition of 'ccFilterShader_sharpen_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(50): warning C4273: 'cocos2d::extra::ccFilterShader_rgb_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(28) : see previous definition of 'ccFilterShader_rgb_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(53): warning C4273: 'cocos2d::extra::ccFilterShader_brightness_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(30) : see previous definition of 'ccFilterShader_brightness_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(56): warning C4273: 'cocos2d::extra::ccFilterShader_exposure_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(32) : see previous definition of 'ccFilterShader_exposure_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(59): warning C4273: 'cocos2d::extra::ccFilterShader_contrast_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(34) : see previous definition of 'ccFilterShader_contrast_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(62): warning C4273: 'cocos2d::extra::ccFilterShader_saturation_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(36) : see previous definition of 'ccFilterShader_saturation_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(65): warning C4273: 'cocos2d::extra::ccFilterShader_gamma_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(38) : see previous definition of 'ccFilterShader_gamma_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(68): warning C4273: 'cocos2d::extra::ccFilterShader_hue_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(40) : see previous definition of 'ccFilterShader_hue_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(71): warning C4273: 'cocos2d::extra::ccFilterShader_haze_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(42) : see previous definition of 'ccFilterShader_haze_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(74): warning C4273: 'cocos2d::extra::ccFilterShader_zoom_blur_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(44) : see previous definition of 'ccFilterShader_zoom_blur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(77): warning C4273: 'cocos2d::extra::ccFilterShader_motion_blur_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(46) : see previous definition of 'ccFilterShader_motion_blur_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(79): warning C4273: 'cocos2d::extra::ccFilterShader_motion_blur_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(47) : see previous definition of 'ccFilterShader_motion_blur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(82): warning C4273: 'cocos2d::extra::ccFilterShader_drop_shadow_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(49) : see previous definition of 'ccFilterShader_drop_shadow_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(84): warning C4273: 'cocos2d::extra::ccFilterShader_drop_shadow_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(50) : see previous definition of 'ccFilterShader_drop_shadow_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(87): warning C4273: 'cocos2d::extra::ccFilterShader_sepia_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(52) : see previous definition of 'ccFilterShader_sepia_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(90): warning C4273: 'cocos2d::extra::ccFilterShader_test_vert' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(57) : see previous definition of 'ccFilterShader_test_vert'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(92): warning C4273: 'cocos2d::extra::ccFilterShader_test_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(58) : see previous definition of 'ccFilterShader_test_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(97): warning C4273: 'cocos2d::extra::ccFilterShader_gaussian_hblur_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(54) : see previous definition of 'ccFilterShader_gaussian_hblur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(99): warning C4273: 'cocos2d::extra::ccFilterShader_gaussian_vblur_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(55) : see previous definition of 'ccFilterShader_gaussian_vblur_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(102): warning C4273: 'cocos2d::extra::ccFilterShader_colorramp_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(62) : see previous definition of 'ccFilterShader_colorramp_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(105): warning C4273: 'cocos2d::extra::ccFilterShader_emboss_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(64) : see previous definition of 'ccFilterShader_emboss_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(108): warning C4273: 'cocos2d::extra::ccFilterShader_embossmov_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(66) : see previous definition of 'ccFilterShader_embossmov_frag'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.cpp(111): warning C4273: 'cocos2d::extra::ccFilterShader_grass_frag' : inconsistent dll linkage
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\filters\shaders\filtershaders.h(68) : see previous definition of 'ccFilterShader_grass_frag'
+         cocos2dx_extra_luabinding.cpp
+         HelperFunc_luabinding.cpp
+         lua_cocos2dx_extension_filter_auto.cpp
+         lua_extensions_more.c
+         CCHTTPRequest.cpp
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(81): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(82): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(135): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(136): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(18): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(19): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(27): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(28): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(43): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(44): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(49): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(50): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(58): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(59): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(19): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(20): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(34): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(35): warning C4068: unknown pragma (..\..\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\cocos2dx_extra_luabinding.cpp(291): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_filter_auto.cpp(1554): warning C4083: expected '('; found identifier 'NO'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_filter_auto.cpp(1681): warning C4083: expected '('; found identifier 'NO'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_filter_auto.cpp(1725): warning C4083: expected '('; found identifier 'NO'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\cchttprequest.cpp(244): warning C4996: 'cocos2d::Scheduler::scheduleUpdateForTarget': was declared deprecated
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\base\ccscheduler.h(400) : see declaration of 'cocos2d::Scheduler::scheduleUpdateForTarget'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\cchttprequest.cpp(383): warning C4996: 'cocos2d::Scheduler::scheduleSelector': was declared deprecated
+                 f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\base\ccscheduler.h(388) : see declaration of 'cocos2d::Scheduler::scheduleSelector'
+         CCNetwork.cpp
+         CCCryptoWin32.cpp
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_filter_auto.cpp(1683): warning C4700: uninitialized local variable 'arg0' used
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_filter_auto.cpp(1728): warning C4700: uninitialized local variable 'arg0' used
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\luabinding\lua_cocos2dx_extension_filter_auto.cpp(1557): warning C4700: uninitialized local variable 'arg0' used
+         CCNative.cpp
+         CCNativeWin32.cpp
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(19): warning C4068: unknown pragma (..\..\lib\quick-src\extra\network\CCNetwork.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(20): warning C4068: unknown pragma (..\..\lib\quick-src\extra\network\CCNetwork.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(34): warning C4068: unknown pragma (..\..\lib\quick-src\extra\network\CCNetwork.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(35): warning C4068: unknown pragma (..\..\lib\quick-src\extra\network\CCNetwork.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(81): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCCryptoWin32.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(82): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCCryptoWin32.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(135): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCCryptoWin32.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\crypto\cccrypto.h(136): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCCryptoWin32.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(18): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNative.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(19): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNative.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(27): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNative.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(28): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNative.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(43): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNative.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(44): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNative.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(49): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNative.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(50): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNative.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(58): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNative.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(59): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNative.cpp)
+         CCNetworkWin32.cpp
+         ProjectConfig.cpp
+         VisibleRect.cpp
+         PlayerEditBoxServiceWin.cpp
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(19): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNetworkWin32.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(20): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNetworkWin32.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(34): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNetworkWin32.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\network\ccnetwork.h(35): warning C4068: unknown pragma (..\..\lib\quick-src\extra\platform\win32\CCNetworkWin32.cpp)
+         PlayerFileDialogServiceWin.cpp
+         PlayerMenuServiceWin.cpp
+         PlayerMessageBoxServiceWin.cpp
+         PlayerTaskServiceWin.cpp
+         PlayerWin.cpp
+         stdafx.cpp
+         UncaughtExceptionHandler_win32.cpp
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(18): warning C4068: unknown pragma (PlayerWin.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(19): warning C4068: unknown pragma (PlayerWin.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(27): warning C4068: unknown pragma (PlayerWin.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(28): warning C4068: unknown pragma (PlayerWin.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(43): warning C4068: unknown pragma (PlayerWin.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(44): warning C4068: unknown pragma (PlayerWin.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(49): warning C4068: unknown pragma (PlayerWin.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(50): warning C4068: unknown pragma (PlayerWin.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(58): warning C4068: unknown pragma (PlayerWin.cpp)
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\extra\native\ccnative.h(59): warning C4068: unknown pragma (PlayerWin.cpp)
+         F:\Deploy\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\lua\luajit\include" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\..\Classes" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\..\..\lib\quick-src" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\..\..\lib\quick-src\extra" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\win32-specific\zlib\include" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\scripting\lua-bindings\auto" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\scripting\lua-bindings\manual" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\audio\include" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\lua\lua" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\lua\tolua" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\extensions" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\\" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\curl\include\win32" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\glfw3\include\win32" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\editor-support" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\platform" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\cocos\platform\desktop" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\glfw3\include\win32" /I"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D CC_USE_JSON=1 /D CC_USE_SQLITE=1 /D CC_USE_CURL=1 /D CC_LUA_ENGINE_ENABLED=1 /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D USE_WIN32_CONSOLE=1 /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D GLFW_EXPOSE_NATIVE_WIN32 /D GLFW_EXPOSE_NATIVE_WGL /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TC /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt "..\..\lib\quick-src\extra\crypto\base64\libbase64.c" "..\..\lib\quick-src\extra\crypto\md5\md5.c" "..\..\lib\quick-src\lua_extensions\cjson\fpconv.c" "..\..\lib\quick-src\lua_extensions\cjson\lua_cjson.c" "..\..\lib\quick-src\lua_extensions\cjson\strbuf.c" "..\..\lib\quick-src\lua_extensions\filesystem\lfs.c" "..\..\lib\quick-src\lua_extensions\lpack\lpack.c" "..\..\lib\quick-src\lua_extensions\lsqlite3\lsqlite3.c" "..\..\lib\quick-src\lua_extensions\lsqlite3\sqlite3.c" "..\..\lib\quick-src\lua_extensions\zlib\lua_zlib.c"
+         libbase64.c
+         md5.c
+         fpconv.c
+         lua_cjson.c
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\cjson\lua_cjson.c(492): warning C4018: '<' : signed/unsigned mismatch
+         strbuf.c
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\cjson\lua_cjson.c(1007): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 f:\deploy\microsoft visual studio 11.0\vc\include\string.h(251) : see declaration of 'strnicmp'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\cjson\lua_cjson.c(1009): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 f:\deploy\microsoft visual studio 11.0\vc\include\string.h(251) : see declaration of 'strnicmp'
+         lfs.c
+         lpack.c
+         lsqlite3.c
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(130): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(140): warning C4018: '>=' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(147): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(148): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(149): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(150): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(151): warning C4018: '>' : signed/unsigned mismatch
+         sqlite3.c
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(152): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(153): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(154): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(155): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(156): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(157): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(158): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(159): warning C4018: '>' : signed/unsigned mismatch
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\lpack\lpack.c(160): warning C4018: '>' : signed/unsigned mismatch
+         lua_zlib.c
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\filesystem\lfs.c(153): warning C4996: 'chdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _chdir. See online help for details.
+                 f:\deploy\microsoft visual studio 11.0\vc\include\direct.h(136) : see declaration of 'chdir'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\filesystem\lfs.c(173): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getcwd. See online help for details.
+                 f:\deploy\microsoft visual studio 11.0\vc\include\direct.h(130) : see declaration of 'getcwd'
+     1>f:\deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\lib\quick-src\lua_extensions\filesystem\lfs.c(447): warning C4996: 'rmdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _rmdir. See online help for details.
+                 f:\deploy\microsoft visual studio 11.0\vc\include\direct.h(141) : see declaration of 'rmdir'
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /IDebug.win32\ /nologo /fo"Debug.win32\player3.res" player3.rc 
+       Link:
+         F:\Deploy\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\Debug.win32\player3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\Debug.win32\\" /LIBPATH:"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\Debug.win32\\" libcurl.lib opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype.lib winmm.lib ws2_32.lib libchipmunk.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libbox2d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\../../../runtime/win32/player3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\Debug.win32\player3.lib" /MACHINE:X86 Debug.win32\player3.res
+         Debug.win32\lua_cocos2dx_extension_nanovg_auto.obj
+         Debug.win32\lua_cocos2dx_extension_nanovg_manual.obj
+         Debug.win32\NVGDrawNode.obj
+         Debug.win32\NVGNode.obj
+         Debug.win32\nanovg.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\PlayerLuaCore.obj
+         Debug.win32\PlayerLuaCoreManual.obj
+         Debug.win32\PlayerMenuServiceProtocol.obj
+         Debug.win32\PlayerProtocol.obj
+         Debug.win32\PlayerServiceProtocol.obj
+         Debug.win32\PlayerSettings.obj
+         Debug.win32\PlayerTaskServiceProtocol.obj
+         Debug.win32\PlayerUtils.obj
+         Debug.win32\HelperFunc.obj
+         Debug.win32\libbase64.obj
+         Debug.win32\CCCrypto.obj
+         Debug.win32\md5.obj
+         Debug.win32\CCBlurFilter.obj
+         Debug.win32\CCBrightnessFilter.obj
+         Debug.win32\CCContrastFilter.obj
+         Debug.win32\CCCustomFilter.obj
+         Debug.win32\CCDropShadowFilter.obj
+         Debug.win32\CCExposureFilter.obj
+         Debug.win32\CCFilter.obj
+         Debug.win32\CCGammaFilter.obj
+         Debug.win32\CCGrayFilter.obj
+         Debug.win32\CCHazeFilter.obj
+         Debug.win32\CCHueFilter.obj
+         Debug.win32\CCMaskFilter.obj
+         Debug.win32\CCRGBFilter.obj
+         Debug.win32\CCSaturationFilter.obj
+         Debug.win32\CCSepiaFilter.obj
+         Debug.win32\CCSharpenFilter.obj
+         Debug.win32\CCTestFilter.obj
+         Debug.win32\CCFilteredSprite.obj
+         Debug.win32\ccFilterShaders.obj
+         Debug.win32\FilterShaders.obj
+         Debug.win32\cocos2dx_extra_luabinding.obj
+         Debug.win32\HelperFunc_luabinding.obj
+         Debug.win32\lua_cocos2dx_extension_filter_auto.obj
+         Debug.win32\fpconv.obj
+         Debug.win32\lua_cjson.obj
+         Debug.win32\strbuf.obj
+         Debug.win32\lfs.obj
+         Debug.win32\lpack.obj
+         Debug.win32\lsqlite3.obj
+         Debug.win32\sqlite3.obj
+         Debug.win32\lua_extensions_more.obj
+         Debug.win32\lua_zlib.obj
+         Debug.win32\CCHTTPRequest.obj
+         Debug.win32\CCNetwork.obj
+         Debug.win32\CCCryptoWin32.obj
+         Debug.win32\CCNative.obj
+         Debug.win32\CCNativeWin32.obj
+         Debug.win32\CCNetworkWin32.obj
+         Debug.win32\ProjectConfig.obj
+         Debug.win32\VisibleRect.obj
+         Debug.win32\PlayerEditBoxServiceWin.obj
+         Debug.win32\PlayerFileDialogServiceWin.obj
+         Debug.win32\PlayerMenuServiceWin.obj
+         Debug.win32\PlayerMessageBoxServiceWin.obj
+         Debug.win32\PlayerTaskServiceWin.obj
+         Debug.win32\PlayerWin.obj
+         Debug.win32\stdafx.obj
+         Debug.win32\UncaughtExceptionHandler_win32.obj
+         "F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\Debug.win32\libcocos2d.lib"
+         "F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\Debug.win32\libluacocos2d.lib"
+         "F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\Debug.win32\libDragonbones.lib"
+     1>LINK : fatal error LNK1104: cannot open file 'libbox2d.lib'
+     1>Done Building Project "F:\Deploy\adt_bundle\cocos2dx\quick-cocos2d-x-3.6.3_community\quick\player\proj.win32\player.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:05:25.93
